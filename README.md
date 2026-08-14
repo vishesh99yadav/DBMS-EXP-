@@ -539,3 +539,4 @@ Product
    ├── Electronics → Warranty_Period
    ├── Clothing → Size, Color
    └── Grocery → Expiry_Date
+<img width="1787" height="1046" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/5fc6e925-85d7-427d-a2a3-331c28b51355" />
