@@ -540,3 +540,4 @@ Product
    ├── Clothing → Size, Color
    └── Grocery → Expiry_Date
 <img width="1787" height="1046" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/5fc6e925-85d7-427d-a2a3-331c28b51355" />
+<img width="7228" height="4264" alt="image" src="https://github.com/user-attachments/assets/0ca1f1f0-7efe-47e6-b5ce-3a6868585abe" />
