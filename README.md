@@ -487,56 +487,5 @@ Double Rectangle	Weak Entity
 Double Diamond	Identifying Relationship
 Triangle / ISA	Specialization/Generalization
 Lines	Connections between entities and attributes
-14. Overall ER Structure
+<img width="7228" height="4264" alt="image" src="https://github.com/user-attachments/assets/0ef1d29a-983d-482b-ad37-98495663e210" />
 
-The complete conceptual structure can be summarized as:
-
-Customer
-   |
-   | 1:N
-   ↓
- Places
-   ↓
- Order
-   |\
-   | \
-   |  \ 1:1
-   |   └──── Has ──── Delivery
-   |
-   └──── Has ───── Payment
-
-
-Order
-   |
-   | M:N
-   ↓
-Includes
-   ↓
-Product
-   |\
-   | \
-   |  \ N:1
-   |   └──── Belongs To ──── Category
-   |
-   └──── Sells ──── Seller
-
-
-Customer
-   |
-   | 1:N
-   ↓
-Address
-   |
-   └── House_No, Street, City, State, PIN_Code
-
-
-
-
-Product
-   |
-  ISA
-   |
-   ├── Electronics → Warranty_Period
-   ├── Clothing → Size, Color
-   └── Grocery → Expiry_Date
-<img width="1787" height="1046" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/5fc6e925-85d7-427d-a2a3-331c28b51355" />
